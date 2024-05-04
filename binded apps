@@ -2,6 +2,6 @@
 
 while :
 do 
-    am start --user 0 --activity-clear-task -a android.intent.action.MAIN -n com.dotgears.flappybird/com.dotgears.flappy.SplashScreen
+    am start --user 0 --activity-clear-task -a android.intent.action.MAIN -n Package_Name/Activity_Name
     sleep 30 
 done
